@@ -9,6 +9,7 @@ config/deploy.rb
 config/deploy
 config/mongoid.yml
 config/unicorn.rb
+config/newrelic.yml
 .rvmrc
 .idea
 *~
