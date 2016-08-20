@@ -1,5 +1,8 @@
 server {
   listen 80;
+  listen 443 ssl;
+  ssl_certificate /home/macool/shared/keys/server.crt;
+  ssl_certificate_key /home/macool/shared/keys/server.key;
   server_name pangi.shiriculapo.com www.pangi.shiriculapo.com;
   passenger_enabled on;
   passenger_app_env production;
