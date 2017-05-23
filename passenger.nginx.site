@@ -6,5 +6,6 @@ server {
   server_name pangi.shiriculapo.com www.pangi.shiriculapo.com;
   passenger_enabled on;
   passenger_app_env production;
+  passenger_ruby /home/macool/.rbenv/versions/2.3.0/bin/ruby;
   root /home/macool/errbit/public;
 }
