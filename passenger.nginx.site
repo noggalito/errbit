@@ -7,6 +7,5 @@ server {
   passenger_enabled on;
   passenger_app_env production;
   passenger_ruby /home/macool/.rbenv/versions/2.3.0/bin/ruby;
-  passenger_log_file /home/macool/errbit/log/passenger.log;
   root /home/macool/errbit/public;
 }
